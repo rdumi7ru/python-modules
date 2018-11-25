@@ -8,9 +8,11 @@
 def btm(bytes):
     mb = 1024**2
     result = bytes / mb
-    print(result)
+    return result
+#    print('%.2f' %  (result))
 
 def btg(bytes):
     gb = 1024**3
     result = bytes / gb
-    print(result)
+    return result
+ #   print('%.2f' % (result))
